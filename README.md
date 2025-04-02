@@ -1,4 +1,3 @@
-# Recipe Sharing Website
 
 ## Description
 The **Recipe Sharing Website** is a platform where users can browse, add, and share their favorite recipes. It provides a seamless experience for food enthusiasts to explore and contribute recipes while filtering and searching based on various criteria.
@@ -11,13 +10,7 @@ The **Recipe Sharing Website** is a platform where users can browse, add, and sh
 
 ## Screenshots
 ### Home Page
-![Home Page](screenshots/home.png)
 
-### Recipe Details Page
-![Recipe Details](screenshots/recipe_details.png)
-
-### Add Recipe Page
-![Add Recipe](screenshots/add_recipe.png)
 
 ## Installation
 1. Clone the repository:
@@ -35,7 +28,7 @@ The **Recipe Sharing Website** is a platform where users can browse, add, and sh
 3. Start the development servers:
    ```bash
    cd client
-   npm start  # Start React frontend
+   npm run dev  # Start React frontend
    ```
    ```bash
    cd server
@@ -43,6 +36,6 @@ The **Recipe Sharing Website** is a platform where users can browse, add, and sh
    ```
 
 ## Technologies Used
-- **Frontend:** React.js, Tailwind CSS
+- **Frontend:** React.js
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
