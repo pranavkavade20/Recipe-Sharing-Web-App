@@ -1,0 +1,207 @@
+header{
+    padding: 2rem 5vw;
+    background-image:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(5, 5, 5, 0.00) 100%),
+    url("../../assets/images/homepage-bg-min.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header .icon-and-profile-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-and-profile-image > button{
+    background-color: transparent;
+    width:3rem;
+    height:3rem;
+    border:none;
+}
+
+.icon-and-profile-image > .user-button.large{
+    background-color: transparent;
+    width:4rem;
+    height:4rem;
+    border:none;
+}
+
+.icon-and-profile-image > .profile-button img{
+    width: 100%;
+    height: 100%;
+}
+
+.icon-and-profile-image .user-button{
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(40px);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+
+}
+
+.user-button img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.user-button .loader-circle{
+    width:2rem;
+    height:2rem;
+    border-width: 2px;
+    margin:0;
+    margin-left: .41em;
+}
+
+.user-button .not-logged-in,
+.user-button .logged-in
+{
+    background-color: white;
+    width:12rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right:0;
+    padding: .8rem 1rem;
+    border: var(--border-style);
+    border-width: 1.5px;
+    border-radius: 1.4rem;
+    -webkit-border-radius: 1.4rem;
+    -moz-border-radius: 1.4rem;
+    -ms-border-radius: 1.4rem;
+    -o-border-radius: 1.4rem;
+    margin: 1rem 0 0 0;
+}
+
+.not-logged-in > button,
+.logged-in > button
+{
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    margin-bottom: .8rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    opacity: .8;
+}
+
+.not-logged-in > button:last-of-type,
+.logged-in > button:last-of-type{
+    padding-top: .8rem;
+    margin-bottom:0;
+}
+
+.not-logged-in > button:last-of-type{
+    border-top: 1px solid rgba(128, 128, 128, 0.37);
+}
+
+.logged-in > button:last-of-type{
+    border-top: 1px solid rgba(128, 128, 128, 0.37);
+    color:rgb(206, 23, 23);
+}
+
+.not-logged-in button a,
+.logged-in button a
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+header h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem auto;
+    color:white;
+    width: 25rem;
+    text-shadow: 0 0 .5rem rgba(0, 0, 0, 0.315);
+    font-weight: 600;
+}
+
+.homepage-header form{
+    padding: .8rem 0 .8rem 1.5rem;
+    border-radius: .8rem;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+    display: flex;
+    column-gap: .5rem;
+    background-color: white;
+    max-width: 45rem;
+    margin: auto;
+}
+
+.homepage-header form input{
+    flex:.95;
+    border:none;
+}
+
+.homepage-header form input::placeholder{
+    font-weight: 600;
+    opacity: .5;
+}
+
+.homepage-header form label{
+    opacity: .5;
+}
+
+.homepage-main .loader-message{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+main.homepage-main{
+    width:90vw;
+    margin:auto;
+}
+
+@media screen and (min-width:600px) {
+    header h1{
+        font-size: 2.8rem;
+        width: 25rem;
+    }
+
+    main.homepage-main{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+        column-gap: 2rem;
+        justify-items: center;
+    }
+    .not-logged-in > button,
+    .logged-in > button
+    {
+    font-size: 1.4rem;
+}
+}
+
+button.add-new-recipe{
+    background-image: var(--add-recipe-button-bg);
+    border: none;
+    width:5rem;
+    height:5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: fixed;
+    bottom: 5rem;
+    right:5vw;
+}

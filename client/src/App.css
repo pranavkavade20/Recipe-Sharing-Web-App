@@ -1,0 +1,59 @@
+@font-face {
+  font-family: i-sans;
+  src: url("./assets/fonts/i-sans.ttf")
+}
+
+*, *::before, *::after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: i-sans;
+}
+
+html{
+  font-size: 62.5%;
+  background-color: #fafafa;
+}
+
+button{
+  cursor: pointer;
+}
+
+:root{
+--homepage-hero-linear-gradient : linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(5, 5, 5, 0.00) 100%);
+--add-linear-gradient :  linear-gradient(180deg, rgba(0, 0, 0, 0.40) 0%, rgba(5, 5, 5, 0.00) 100%);
+--input-border-color : #898686;
+--add-recipe-button-bg : linear-gradient(180deg, #FF8412 0%, #C44226 100%);
+--border-style : 1px solid rgba(0, 0, 0, 0.322); 
+
+}
+
+.primary-button{
+  border:none;
+  border-radius: 4rem;
+  background: linear-gradient(91deg, #FF8412 4.18%, #C44226 94.01%);
+  box-shadow: 0px 4px 12px 0px rgba(238, 112, 23, 0.50);
+  color:white;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+
+.primary-button:hover{
+  transform: translateY(-1px);
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  -o-transform: translateY(-1px);
+  background-position: 100%;
+}
+
+.primary-button:active{
+  transform: scale(.95);
+  -webkit-transform: scale(.95);
+  -moz-transform: scale(.95);
+  -ms-transform: scale(.95);
+  -o-transform: scale(.95);
+}
