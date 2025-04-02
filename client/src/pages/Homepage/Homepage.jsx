@@ -78,7 +78,8 @@ function Homepage() {
                         </button>
                         <UserButton setRecipes={setRecipes} setUserId={setUserId} />
                     </div>
-                    <h1>Delicious Recipes, Just a Tap Away</h1>
+                    <h1>"Discover new flavors, share your own.
+                    Your kitchen, a global home."</h1>
                     <form onSubmit={(e) => e.preventDefault()}>
                         <label htmlFor="search">
                             <img src={searchIcon} alt="search" />

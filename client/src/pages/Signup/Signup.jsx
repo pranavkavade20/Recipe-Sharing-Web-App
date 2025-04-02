@@ -144,7 +144,7 @@ function Signup() {
               type="text"
               name="username"
               id="username"
-              placeholder="David"
+              placeholder="Test"
               onChange={(e) => {
                 setUsernameError(null)
                 handleInput(e)
