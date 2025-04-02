@@ -10,7 +10,22 @@ The **Recipe Sharing Website** is a platform where users can browse, add, and sh
 
 ## Screenshots
 ### Home Page
+![Home Page](https://github.com/user-attachments/assets/facf0f87-a1f3-46ce-b997-7da0b916d1ef)
 
+### Login Page
+![Login Page](https://github.com/user-attachments/assets/9de04e02-2704-4057-89bf-deab632a31e6)
+
+### Signup Page
+![Sign Up page](https://github.com/user-attachments/assets/b4210d9f-7fc6-466d-a27f-102ccd786de6)
+
+### User Profile
+![User profile](https://github.com/user-attachments/assets/005f2043-3867-4ed6-94ac-ab4cf1afed1c)
+
+### Recipe Detail Page
+![Recipe Detail Page](https://github.com/user-attachments/assets/9d775071-dd61-4a1c-9d6e-218fd5bf2fde)
+
+## Recipe Add
+![RecipAdd](https://github.com/user-attachments/assets/f8bc4624-38fb-41ba-9ffa-648a2d9274a8)
 
 ## Installation
 1. Clone the repository:
