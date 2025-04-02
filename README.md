@@ -11,8 +11,7 @@ The **Recipe Sharing Website** is a platform where users can browse, add, and sh
 
 ## Screenshots
 ### Home Page
-![Home Page]([Uploading Home Page.jpg…]()
-)
+![Home Page](Home Page.jpg)
 
 ## Installation
 1. Clone the repository:
@@ -30,7 +29,7 @@ The **Recipe Sharing Website** is a platform where users can browse, add, and sh
 3. Start the development servers:
    ```bash
    cd client
-   npm start  # Start React frontend
+   npm run dev  # Start React frontend
    ```
    ```bash
    cd server
