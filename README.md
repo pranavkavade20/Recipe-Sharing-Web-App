@@ -36,6 +36,6 @@ The **Recipe Sharing Website** is a platform where users can browse, add, and sh
    ```
 
 ## Technologies Used
-- **Frontend:** React.js, Tailwind CSS
+- **Frontend:** React.js
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
