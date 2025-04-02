@@ -1,4 +1,4 @@
-# Recipe Sharing Website
+![Home Page](https://github.com/user-attachments/assets/5ac6d4ba-c8bf-471c-bc63-9e4a52a40572)# Recipe Sharing Website
 
 ## Description
 The **Recipe Sharing Website** is a platform where users can browse, add, and share their favorite recipes. It provides a seamless experience for food enthusiasts to explore and contribute recipes while filtering and searching based on various criteria.
@@ -11,13 +11,8 @@ The **Recipe Sharing Website** is a platform where users can browse, add, and sh
 
 ## Screenshots
 ### Home Page
-![Home Page](screenshots/home.png)
-
-### Recipe Details Page
-![Recipe Details](screenshots/recipe_details.png)
-
-### Add Recipe Page
-![Add Recipe](screenshots/add_recipe.png)
+![Home Page]([Uploading Home Page.jpg…]()
+)
 
 ## Installation
 1. Clone the repository:
