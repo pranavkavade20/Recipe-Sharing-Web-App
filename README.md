@@ -10,7 +10,7 @@ The **Recipe Sharing Website** is a platform where users can browse, add, and sh
 
 ## Screenshots
 ### Home Page
-![Home Page](https://github.com/user-attachments/assets/5ac6d4ba-c8bf-471c-bc63-9e4a52a40572)# Recipe Sharing Website
+
 
 ## Installation
 1. Clone the repository:
